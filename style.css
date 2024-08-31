@@ -2,3 +2,25 @@ html {
   height: 100%;
   width: 100%;
 }
+body{
+  background-color: #000a1f;
+  }
+.container{
+  width:70%;
+  margin:100px 0 0 200px;
+  height:450px;
+  display:flex;
+  justify-content: centre;
+  gap:10px;
+}
+  .container img {
+    width: 10%;
+    height:100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #ffffff; 
+    transition: all 0.5s ease-in-out;
+}
+.container img:hover {
+  width:25%;
+}
